@@ -1,10 +1,17 @@
 # Folder structure.
 
- ── src/
-│   ├── components/
-│   │   ├── Header.js
-│   │   ├── ProductList.js
-│   │   └── Cart.js
+
+
+src/
+├── components/
+│   ├── Header.js
+│   ├── ProductList.js
+│   ├── Cart.js
+│   ├── Checkout.js
+│   └── ContactUs.js
+├── App.js
+├── App.css
+└── index.js
 
 # THE LIQUOR VAULT.
 -Unlock the Good Times-
