@@ -5,7 +5,9 @@ import LiquorList from "../components/LiquorList";
 function Home({ onAddToCart }) {
   return (
     <>
-      <HeroSection />
+      <section id="hero">
+        <HeroSection />
+      </section>
       <LiquorList onAddToCart={onAddToCart} />
     </>
   );

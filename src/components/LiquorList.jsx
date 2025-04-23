@@ -37,9 +37,9 @@ function LiquorList({ cart, setCart }) {
         </div>
       </div>
 
-      {/* Floating Cart Icon */}
+     
       <button
-        className="btn btn-dark rounded-circle position-fixed"
+        className="btn btn-warning rounded-circle position-fixed"
         style={{
           bottom: "20px",
           right: "20px",

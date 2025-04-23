@@ -29,7 +29,7 @@ function Cart({ cart, setCart }) {
           <tbody>
             {cart.map((item) => (
               <tr key={item.id}>
-                <td><img src={item.image} alt={item.name} width="60" height="60" style={{ objectFit: "cover" }} /></td>
+                <td><img src={item.image_url} alt={item.name} width="60" height="60" style={{ objectFit: "cover" }} /></td>
                 <td>{item.name}</td>
                 <td>{item.brand}</td>
                 <td>{item.type}</td>

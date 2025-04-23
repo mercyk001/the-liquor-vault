@@ -3,7 +3,7 @@ import { FaShoppingCart } from "react-icons/fa"; // Optional: use a shopping car
 
 function LiquorCard({ liquor, handleAddToCart }) {
   return (
-    <div className="card h-100 shadow-sm">
+    <div className="card h-100 shadow-sm bg-light rounded-4 w-100">
       <img 
         src={liquor.image_url} 
         className="card-img-top" 
@@ -18,7 +18,7 @@ function LiquorCard({ liquor, handleAddToCart }) {
         <p className="card-text"><strong>Price:</strong> KSh {liquor.price}</p>
         <p className="card-text"><strong>Availability:</strong> {liquor.availability ? "In Stock" : "Out of Stock"}</p>
         <button 
-          className="btn btn-sm btn-outline-primary mt-auto"
+          className="btn btn-sm btn-warning mt-auto"
           onClick={() => handleAddToCart(liquor)}
           disabled={!liquor.availability}
         >

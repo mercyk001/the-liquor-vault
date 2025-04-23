@@ -2,7 +2,7 @@
 
 
 import React from "react";
-import { Link } from "react-router-dom"; // Import Link from react-router-dom
+import { Link } from "react-router-dom"; 
 import 'bootstrap/dist/css/bootstrap.min.css';
 //import './HeroSection.css'; // Optional for extra styles
 
@@ -16,17 +16,17 @@ function HeroSection() {
         backgroundPosition: "center center", 
         height: "100vh", 
         backgroundRepeat: "no-repeat",
-        position: "relative" // Needed for the overlay to position correctly
+        position: "relative" 
       }}
     >
-      {/* Dark overlay */}
+     
       <div className="overlay"></div>
 
-      <div className="container">
-        <h1 className="display-4 fw-bold mb-3">Premium Liquors at Your Doorstep</h1>
-        <p className="lead mb-4">Explore the finest selection of wines, spirits, and liquors delivered directly to you.</p>
-        {/* Use Link from React Router to navigate to LiquorList */}
-        <Link to="/liquors" className="btn btn-primary btn-lg shadow-lg">Shop Now</Link>
+      <div className="container" style={{ fontFamily: " 'Times new Roman "}}>
+        <h1 className="display-4 fw-bold mb-3 text-white">Premium Liquors at Your Doorstep</h1>
+        <p className="lead mb-4 text-white">Explore the finest selection of wines, spirits, and liquors delivered directly to you.</p>
+        
+        <Link to="/liquors" className="btn btn-warning btn-lg shadow-lg">Shop Now!</Link>
       </div>
     </div>
   );
