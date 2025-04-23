@@ -3,96 +3,28 @@
 
 
 body {
-  background-color: #000;
-  color: gold;
-  font-family: 'Times New Roman', serif;
+  background-color: #f9f9f9;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.navbar {
-  background-color: #000 !important;
-}
-
-.navbar-brand, .nav-link {
-  color: gold !important;
-}
-
-.navbar-brand:hover, .nav-link:hover {
-  color: #ffd700 !important;
-}
-
-.card {
-  background-color: #111;
-  border: none;
-  color: gold;
-  transition: transform 0.3s ease;
-}
-
-.card img.product-image {
-  width: 150px;
-  height: 150px;
+.card img {
+  height: 200px;
   object-fit: cover;
-  margin: 0 auto;
 }
 
-.card:hover {
-  transform: scale(1.05);
+.navbar-brand {
+  font-weight: bold;
+  letter-spacing: 1px;
 }
 
-button.btn-primary {
-  background-color: gold;
-  border: none;
-  color: black;
-}
+.position-fixed {
+  z-index: 1050;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+} 
 
-button.btn-primary:hover {
-  background-color: #ffd700;
-}
-
-.floating-cart {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background: gold;
-  color: black;
-  padding: 10px 15px;
-  border-radius: 50%;
-  font-size: 24px;
-  text-align: center;
-  text-decoration: none;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-}
-
-.floating-cart:hover {
-  background: #ffd700;
-}
-
-landing-page {
-  background-color: rgba(0, 0, 0, 0.75);
-  padding: 40px;
-  border-radius: 15px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-}
-
-.landing-page h1 {
-  font-size: 3rem;
-  margin-bottom: 20px;
-}
-
-.landing-page p {
-  font-size: 1.25rem;
-  margin-bottom: 30px;
-}
-
-.landing-page .btn {
-  background-color: gold;
-  color: black;
-  font-size: 1.25rem;
-  padding: 10px 30px;
-  text-decoration: none;
-  border-radius: 5px;
-}
-
-.landing-page .btn:hover {
-  background-color: #ffd700;
-  color: black;
+/* Ensure images look uniform */
+.liquor-img {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
 }

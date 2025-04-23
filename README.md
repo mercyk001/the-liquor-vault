@@ -26,3 +26,6 @@ A listing page
 Add to Cart
 Checkout
 Store ( a simple database)
+
+
+to open the db.json file: json-server --watch db.json --port 8000
