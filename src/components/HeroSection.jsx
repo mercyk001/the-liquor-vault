@@ -4,7 +4,7 @@
 import React from "react";
 import { Link } from "react-router-dom"; 
 import 'bootstrap/dist/css/bootstrap.min.css';
-//import './HeroSection.css'; // Optional for extra styles
+
 
 function HeroSection() {
   return (

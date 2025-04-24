@@ -1,6 +1,6 @@
 import React from "react";
 import HeroSection from "../components/HeroSection";
-import LiquorList from "../components/LiquorList";
+//import LiquorList from "../components/LiquorList";
 
 function Home({ onAddToCart }) {
   return (
@@ -8,7 +8,7 @@ function Home({ onAddToCart }) {
       <section id="hero">
         <HeroSection />
       </section>
-      <LiquorList onAddToCart={onAddToCart} />
+      
     </>
   );
 }

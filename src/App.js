@@ -6,6 +6,11 @@ import Cart from './pages/Cart'; // Import Cart page if you have one
 import Navbar from './components/Navbar';
 import ContactUs from './pages/ContactUs'; // Import ContactUs page if you have one
 import CartIcon from './components/CartIcon'; // Import CartIcon component
+import Checkout from './pages/Checkout'; // Import Checkout page if you have one
+
+
+
+
 
 function App() {
   const [cart, setCart] = useState([]);
@@ -37,6 +42,7 @@ function App() {
             element={<Cart cart={cart} setCart={setCart} />}
           />
           <Route path="/contact" element={<ContactUs />} />
+          <Route path="/checkout" element={<Checkout cart={cart} />} />
         </Routes>
 
        

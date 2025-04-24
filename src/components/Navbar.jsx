@@ -28,7 +28,14 @@ function Navbar() {
             <button className="btn btn-link nav-link" onClick={handleGoHome}>Home</button>
           </li>
           <li className="nav-item">
+            <Link className="nav-link" to="/liquors">Liquors</Link>
+             </li>
+
+          <li className="nav-item">
             <Link className="nav-link" to="/cart">Cart</Link>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/checkout">Checkout</Link> {/* 👈 Add this */}
           </li>
           <li className="nav-item">
             <Link className="nav-link" to="/contact">Contact Us</Link>
