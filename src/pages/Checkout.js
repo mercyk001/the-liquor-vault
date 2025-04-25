@@ -29,7 +29,7 @@ function Checkout({ cart }) {
       })
       .then((data) => {
         alert("Order placed successfully!");
-        navigate("/"); // Redirect to home
+        navigate("/");
       })
       .catch((error) => {
         alert("Something went wrong. Please try again.");
@@ -49,7 +49,7 @@ function Checkout({ cart }) {
             className="form-control"
             value={location}
             onChange={(e) => setLocation(e.target.value)}
-            placeholder="e.g., Nairobi, Westlands"
+            placeholder="e.g., Tononoka, Mombasa"
             required
           />
         </div>

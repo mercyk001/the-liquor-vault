@@ -1,5 +1,5 @@
 import React from "react";
-import { FaShoppingCart } from "react-icons/fa"; // Optional: use a shopping cart icon
+import { FaShoppingCart } from "react-icons/fa"; 
 
 function LiquorCard({ liquor, handleAddToCart }) {
   return (

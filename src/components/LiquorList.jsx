@@ -16,7 +16,7 @@ function LiquorList({ cart, setCart }) {
       .then((data) => setLiquors(data))
       .catch((error) => {
         console.error("Failed to fetch liquors:", error);
-        setLiquors([]); // prevent undefined
+        setLiquors([]); 
       });
   }, []);
 
@@ -28,7 +28,7 @@ function LiquorList({ cart, setCart }) {
     }
   };
 
-  // Pagination logic
+ 
   const indexOfLastItem = currentPage * itemsPerPage;
   const indexOfFirstItem = indexOfLastItem - itemsPerPage;
   const currentLiquors = liquors?.slice(indexOfFirstItem, indexOfLastItem);
@@ -51,7 +51,7 @@ function LiquorList({ cart, setCart }) {
           ))}
         </div>
 
-        {/* Pagination buttons */}
+        
         <div className="d-flex justify-content-center my-4">
           <nav>
             <ul className="pagination">

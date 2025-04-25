@@ -10,7 +10,7 @@ function Cart({ cart, setCart }) {
     setCart(updatedCart);
   };
 
-  // ✅ Calculate total price using reduce
+ 
   const totalPrice = cart.reduce((sum, item) => sum + item.price_ksh, 0);
 
   return (
@@ -65,7 +65,7 @@ function Cart({ cart, setCart }) {
             </tbody>
           </Table>
 
-          {/* ✅ Display Total & Checkout */}
+          
           <div className="d-flex justify-content-between align-items-center mt-4">
             <h4>Total: <span className="text-warning">KSh {totalPrice.toLocaleString()}</span></h4>
             <Button 

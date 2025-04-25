@@ -11,7 +11,7 @@ function CartIcon({ itemCount }) {
       style={{ position: "relative" }}
     >
       <span>🛒</span>
-      {/* Badge to show the number of items */}
+      
       {itemCount > 0 && (
         <span
           className="badge bg-danger position-absolute top-0 start-100 translate-middle"

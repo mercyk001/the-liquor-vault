@@ -1,13 +1,12 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from './pages/Home';
-import LiquorList from './components/LiquorList'; // Import your LiquorList page
-import Cart from './pages/Cart'; // Import Cart page if you have one
+import LiquorList from './components/LiquorList'; 
+import Cart from './pages/Cart'; 
 import Navbar from './components/Navbar';
-import ContactUs from './pages/ContactUs'; // Import ContactUs page if you have one
-import CartIcon from './components/CartIcon'; // Import CartIcon component
-import Checkout from './pages/Checkout'; // Import Checkout page if you have one
-
+import ContactUs from './pages/ContactUs';
+import CartIcon from './components/CartIcon'; 
+import Checkout from './pages/Checkout'; 
 
 
 
